@@ -10,12 +10,22 @@ Children:
     Type: BaseVariableType
     DataType: Size
     ModellingRule: Optional
-    Value: 300.0
+    Value: 200.0
   - Name: Height
     Type: BaseVariableType
     DataType: Size
     ModellingRule: Optional
-    Value: 300.0
+    Value: 75.0
+  - Name: HorizontalAlignment
+    Type: BaseVariableType
+    DataType: HorizontalAlignment
+    ModellingRule: Optional
+    Value: 3
+  - Name: VerticalAlignment
+    Type: BaseVariableType
+    DataType: VerticalAlignment
+    ModellingRule: Optional
+    Value: 3
 - Name: _010_MiddleNavigationContent
   Id: g=8ab4cbdebcd95b8e3298912970b8b8de
   Supertype: Panel
@@ -25,12 +35,22 @@ Children:
     Type: BaseVariableType
     DataType: Size
     ModellingRule: Optional
-    Value: 300.0
+    Value: 200.0
   - Name: Height
     Type: BaseVariableType
     DataType: Size
     ModellingRule: Optional
-    Value: 300.0
+    Value: 930.0
+  - Name: HorizontalAlignment
+    Type: BaseVariableType
+    DataType: HorizontalAlignment
+    ModellingRule: Optional
+    Value: 3
+  - Name: VerticalAlignment
+    Type: BaseVariableType
+    DataType: VerticalAlignment
+    ModellingRule: Optional
+    Value: 3
 - Name: _010_BottomNavigationContent
   Id: g=a1f373b97e4c9dac29a7c999602119c4
   Supertype: Panel
@@ -40,9 +60,19 @@ Children:
     Type: BaseVariableType
     DataType: Size
     ModellingRule: Optional
-    Value: 300.0
+    Value: 200.0
   - Name: Height
     Type: BaseVariableType
     DataType: Size
     ModellingRule: Optional
-    Value: 300.0
+    Value: 75.0
+  - Name: HorizontalAlignment
+    Type: BaseVariableType
+    DataType: HorizontalAlignment
+    ModellingRule: Optional
+    Value: 3
+  - Name: VerticalAlignment
+    Type: BaseVariableType
+    DataType: VerticalAlignment
+    ModellingRule: Optional
+    Value: 3
