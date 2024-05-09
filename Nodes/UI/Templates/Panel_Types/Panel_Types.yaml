@@ -1,7 +1,7 @@
 Name: Panel Types
 Type: FolderType
 Children:
-- Name: Panel1
+- Name: _010_TopNavigationContent
   Id: g=1aa0d063aadefefefec836cc63797ce5
   Supertype: Panel
   ReferenceType: HasComponent
@@ -16,8 +16,23 @@ Children:
     DataType: Size
     ModellingRule: Optional
     Value: 300.0
-- Name: Panel2
+- Name: _010_MiddleNavigationContent
   Id: g=8ab4cbdebcd95b8e3298912970b8b8de
+  Supertype: Panel
+  ReferenceType: HasComponent
+  Children:
+  - Name: Width
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 300.0
+  - Name: Height
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 300.0
+- Name: _010_BottomNavigationContent
+  Id: g=a1f373b97e4c9dac29a7c999602119c4
   Supertype: Panel
   ReferenceType: HasComponent
   Children:
